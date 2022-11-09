@@ -21,7 +21,7 @@ namespace CapitalLetter{
             }
 
             foreach(char item in capitalLetters){
-                Console.WriteLine(item);
+                Console.WriteLine($"Index: {userInput.IndexOf(item)} \t Character: {item}");
             }
 
             Console.Read();
